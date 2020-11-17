@@ -1,0 +1,382 @@
+.container {
+
+    max-width: 1175px !important;
+
+    margin: 0 auto;
+
+}
+
+
+
+.sikl-top-btn-main {
+
+    padding: 15px;
+
+}
+
+.sikl-top-btn-inner {
+
+    display: flex;
+
+    flex-flow: row-reverse;
+
+    justify-content: flex-end;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    border-bottom: 1px solid #e0e0e0;
+
+    width: 95%;
+
+}
+
+.sikl-top-btn-inner p {
+
+    margin-bottom: 0;
+
+    background-color: #cb051a;
+
+    color: #fff;
+
+    padding: 5px 22px;
+
+    font-size: 24px;
+
+    line-height: 28px;
+
+    font-family: 'GE-Medium';
+
+}
+
+span.home-icon-main {
+
+    background-color: #e4e4e4;
+
+    padding: 9px 10px;
+
+}
+
+span.home-icon-main a {
+
+    color: #000;
+
+}
+
+.sikl-top-btn-inner p span {
+
+    font-size: 15px;
+
+    padding-left: 5px;
+
+}
+
+.top-border p {
+
+    margin-top: -18px;
+
+    font-family: 'GE-Medium';
+
+    color: #9e9e9e;
+
+}
+
+.tags-banner-section.tags-post-section .inner-info h3 {
+
+    font-family: 'jalal';
+
+    font-size: 12px;
+
+    line-height: 36px;
+
+}
+
+.tags-post-section .inner-info {
+
+    height: 130px;
+
+}
+
+
+
+
+
+
+
+.tag-inner-content img {
+
+    width: 100%;
+
+    max-width: 100%;
+
+}
+
+.tags-btn a {
+
+    background: #cb051a;
+
+    text-align: center;
+
+    padding: 8px 20px;
+
+    color: #fff;
+
+    border-top-right-radius: 5px;
+
+    font-family: 'GE-Medium';
+
+}
+
+.tags-btn {
+
+    margin-top: -31px;
+
+    display: inline-block;
+
+}
+
+.tags-banner-section .inner-info h3 {
+
+    font-size: 18px;
+
+    font-family: 'jalal';
+
+    line-height: 45px;
+
+}
+
+a.share {
+
+    color: #aeaeae;
+
+    display: block;
+
+    font-size: 18px;
+
+    font-family: 'GE-Medium';
+
+}
+
+i.fas.fa-share {
+
+    margin-left: 10px;
+
+}
+
+.tags-banner-section .inner-info {
+
+    background: #f8f8f8;
+
+    padding: 15px;
+
+    text-align: right;
+
+}
+
+.tag-inner-content {
+
+    border: 1px solid #dcdcdc;
+
+    border-radius: 5px;
+
+}
+
+.tags-banner-section.tags-post-section {
+
+    margin: 50px 0;
+
+}
+
+.col-md-12.post-space {
+
+    margin: 10px;
+
+}
+
+
+
+
+
+.tag-button {
+
+    text-align: center;
+
+    margin-bottom: 50px;
+
+}
+
+.tag-button a {
+
+    background: #000;
+
+    color: #fff;
+
+    padding: 10px 50px;
+
+    font-family: 'GE-Medium';
+
+}
+
+span.center-line {
+    margin: 0 6px 0 1px;
+}
+a.share img {
+    object-fit: contain;
+    padding-left: 5px;
+    width: auto;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px)
+
+{
+
+    .tags-banner-section.tags-post-section .inner-info h3 {
+
+        font-size: 10px;
+
+    }
+    .sikl-top-btn-main .col-12 {
+    padding: 0;
+}
+.sikl-top-btn-inner{
+    width: 92%;
+}
+
+}
+
+
+
+@media (min-width: 426px) and (max-width: 767px)
+
+{
+.sikl-top-btn-main .col-12 {
+    padding: 0;
+}
+    .col-md-12.post-space {
+
+        display: none;
+
+    }
+
+    .tags-banner-section.tags-post-section .col-md-4 {
+
+        margin-bottom: 15px;
+
+    }
+
+    .tag-button a {
+
+        display: block;
+
+    }
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 425px){
+        body.safari .tags-btn {
+    margin-top: -25px !important;
+}
+
+    .col-md-12.post-space {
+
+        display: none;
+
+    }
+
+    .tags-banner-section.tags-post-section .col-md-4 {
+
+        margin-bottom: 15px;
+
+        max-width: 50%;
+
+        padding: 0 3px;
+
+    }
+
+    .tags-banner-section.tags-post-section {
+
+        padding: 0 10px;
+
+        margin: 20px 0 20px;
+
+    }
+    .tag-button{
+        margin-bottom: 10px;
+    }
+
+    .tags-banner-section .inner-info {
+
+        padding: 10px;
+
+    }
+
+    .tags-banner-section.tags-post-section .inner-info h3 {
+
+        font-size: 10px;
+
+        line-height: 26px;
+
+    }
+
+    .tags-banner-section.tags-post-section .col-md-4:last-child {
+
+        display: none;
+
+    }
+
+    .tags-banner-section .inner-info h3 {
+
+        font-size: 9px;
+
+        line-height: 26px;
+
+    }
+
+    .tag-button a {
+
+        display: block;
+
+    }
+    .top-border p {
+    margin-top: -20px;
+}
+.sikl-top-btn-inner{
+    width: 82% !important;
+}
+.sikl-top-btn-main .col-12 {
+    padding: 0 !important;
+}
+}
+
+
+
+@media (min-width: 320px) and (max-width: 374px) 
+
+{
+
+    .tags-banner-section.tags-post-section .inner-info h3 {
+
+        font-size: 9px;
+
+    }
+
+    .tags-btn a {
+
+        padding: 5px 10px;
+
+    }
+}
+
+@media(max-width: 425px){
+
+}
+
+
+body.safari .tags-btn {
+    margin-top: -28px !important;
+}

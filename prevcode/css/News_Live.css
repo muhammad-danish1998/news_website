@@ -1,0 +1,227 @@
+.container {
+    max-width: 1175px !important;
+    margin: 0 auto;
+}
+
+
+.sikl-top-btn-main {
+    padding: 15px;
+}
+.sikl-top-btn-inner {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e0e0e0;
+}
+.sikl-top-btn-inner p {
+    margin-bottom: 0;
+    background-color: #cb051a;
+    color: #fff;
+    padding: 7px 30px 6px;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'GE-Medium';
+}
+span.home-icon-main {
+    background-color: #e4e4e4;
+    padding: 9px 10px;
+}
+span.home-icon-main a {
+    color: #000;
+}
+
+
+.direct-inner {
+    background-color: #000;
+    border-radius: 7px;
+    padding-top: 10px;
+    text-align: right;
+}
+a.direct-btn::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #cb051a;
+    right: 10px;
+    bottom: 16px;
+    border-radius: 50px;
+}
+a.direct-btn {
+    color: #fff;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    position: relative;
+    font-family: 'GE-Medium';
+    font-size: 20px;
+    display: inline-block;
+}
+.share-main {
+	display: inline-block;
+}
+.dead-share {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row-reverse;
+    justify-content: flex-end;
+}
+.dead-share span {
+    color: #aeaeae;
+    font-family: 'GE-Medium';
+}
+.dead-share img {
+    object-fit: contain;
+    padding-left: 5px;
+}
+.south-main-heading h2 {
+    color: #fff;
+    font-family: 'jalal';
+    font-size: 21px;
+    line-height: 48px;
+}
+.south-main-heading {
+    border-bottom: 1px solid #3c3c3c;
+    padding-bottom: 30px;
+}
+.south-sub-heading h3 {
+    font-family: 'jalal';
+    line-height: 40px;
+    font-size: 15px;
+    color: #828282;
+}
+.south-sub-heading {
+    border-bottom: 1px solid #3c3c3c;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.south-sub-heading:last-child {
+    border: none;
+}
+.direct-img-main img {
+    border-radius: 0 0 7px 0 !important;
+    height: 585px;
+    width: 100%;
+}
+
+
+.director-main-sec {
+    margin-top: 40px;
+}
+.economy-main-sec {
+    margin-bottom: 30px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 4.65px 0.35px rgba(10, 0, 23, 0.16);
+}
+.img-detail img {
+    position: relative;
+    border-radius: 7px 7px 0 0;
+    width: 100%;
+}
+.economy-btn {
+    text-align: left;
+    margin-top: -30px;
+    position: relative;
+}
+.economy-btn a.economy-btn-text {
+    background: #cb051a;
+    text-align: center;
+    padding: 7px 20px;
+    color: #fff;
+    border-top-right-radius: 5px;
+    font-family: 'GE-Medium';
+    font-size: 16px;
+}
+.director-main-sec .content-detail {
+    padding: 30px 15px;
+    height: auto;
+}
+.content-detail {
+    text-align: right;
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 0 0 7px 7px;
+}
+.content-detail h3 {
+    font-size: 12px;
+    line-height: 30px;
+    font-family: 'jalal';
+}
+.dead-share {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row-reverse;
+    justify-content: flex-end;
+}
+.dead-share img {
+    object-fit: contain;
+    padding-left: 5px;
+}
+.share-main {
+	display: inline-block;
+}
+.alan-last-sec-main {
+    margin-bottom: 20px;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) 
+{
+    .south-main-heading h2 {
+        font-size: 14px;
+    }
+    .south-sub-heading h3 {
+        font-size: 12px;
+    }
+    .direct-main-sec .col-4 {
+        padding-right: 0;
+    }
+    .alan-last-sec-main .content-detail {
+        padding: 10px;
+    }
+    .content-detail h3 {
+        font-size: 10px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px)
+{
+    .direct-main-sec .col-8, .direct-main-sec .col-4 , .director-main-sec .col-4 , 
+    .alan-last-sec-main .col-3 {
+        flex: auto;
+        max-width: 100%;
+    }
+    .direct-img-main img {
+        height: auto;
+        padding: 0 10px;
+    }
+    .direct-main-sec .col-4 {
+        padding-right: 25px;
+        padding-top: 20px;
+    }
+    .south-main-heading h2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 375px)
+{
+    .south-main-heading h2 {
+        font-size: 16px;
+    }
+    .south-sub-heading h3 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px)
+{
+    .south-main-heading h2 {
+        font-size: 14px;
+        line-height: 40px;
+    }
+}

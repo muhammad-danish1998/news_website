@@ -1,0 +1,390 @@
+.col-md-12.heading h4 {
+
+    color: #000;
+
+    border-bottom: 1px solid #d6d6d6;
+
+    position: relative;
+
+    padding: 10px 0;
+
+    margin-bottom: 30px;
+
+    text-align: right;
+
+    font-family: 'GE-Light';
+
+    font-size: 30px;
+
+}
+
+.col-md-12.heading h4:before{
+
+	    position: absolute;
+
+    content: "";
+
+    background: #cb051a;
+
+    width: 3%;
+
+    height: 4px;
+
+    bottom: 0;
+
+    border-radius: 5px;
+
+}
+
+.main-icon {
+
+    display: flex;
+
+    justify-content: center;
+
+        margin: 30px 0;
+
+}
+
+.login-info {
+
+    text-align: center;
+
+}
+
+a.facebook-icon span {
+
+    background: #3b5997;
+
+}
+
+a.twitter-icon span {
+
+    background: #45afe3;
+
+}
+
+.main-icon span{
+
+	color: #fff;
+
+    line-height: 40px;
+
+    padding: 0 25px;
+
+    border-right: 1px solid #fff;
+
+    font-family: 'GE-Medium';
+
+    font-size: 14px;
+
+}
+
+a.facebook-icon i {
+
+    background: #354f87;
+
+    color: #fff;
+
+}
+
+a.twitter-icon i{
+
+	background: #3fa1d1;
+
+	color: #fff;
+
+}
+
+.login-form input {
+
+    width: 50%;
+
+    margin-bottom: 10px;
+
+    border: none;
+
+    background: #f8f8f8;
+
+    padding:10px;
+
+}
+
+input#submit-btn {
+
+    background: #000;
+
+    color: #fff;
+
+    font-family: 'GE-Medium';
+
+}
+
+.login-info p {
+
+    font-family: 'GE-Medium';
+
+    margin-bottom: 5px;
+
+}
+
+.main-icon a {
+
+    display: flex;
+
+}
+
+.main-icon i {
+
+    padding: 10px;
+
+}
+
+.main-icon i {
+
+    padding: 12px 15px;
+
+}
+
+a.twitter-icon {
+
+    margin-left: 10px;
+
+}
+
+a.facebook-icon {
+
+    margin-right: 10px;
+
+}
+
+.left-right-border p {
+
+    position: relative;
+
+}
+
+.left-right-border p:before {
+
+    position: absolute;
+
+    content: "";
+
+    height: 1px;
+
+    background: linear-gradient(to right, #ffffff , #969696);
+
+     width: 25%;
+
+    top: 50%;
+
+    left: 23%;
+
+}
+
+.left-right-border p:after {
+
+    position: absolute;
+
+    content: "";
+
+    height: 1px;
+
+    background: linear-gradient(to left, #ffffff , #969696);
+
+    width: 25%;
+
+    top: 50%;
+
+    right: 23%;
+
+}
+
+.login-form {
+
+    margin-top: 30px;
+
+}
+
+.register-here {
+
+    margin-bottom: 50px;
+
+    font-family: GE-light;
+
+    font-size: 14px;
+
+}
+
+.register-here a {
+
+    color: #cb051a;
+
+}
+
+.login-form input::placeholder {
+
+    font-family: GE-light;
+
+    color:#c4c4c4;
+
+    font-size: 14px;
+
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px)
+
+{
+
+    .login-form .col-md-2 {
+
+        display: none;
+
+    }
+
+    .login-form .col-md-8 {
+
+        flex: auto;
+
+        max-width: 100%;
+
+    }
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px)
+
+{
+
+    .login-form .col-md-2 {
+
+        display: none;
+
+    }
+
+    .login-form .col-md-8 {
+
+        flex: auto;
+
+        max-width: 100%;
+
+    }
+
+    .main-icon {
+
+        flex-flow: column;
+
+        align-items: center;
+
+    }
+
+    a.twitter-icon {
+
+        margin-left: 0;
+
+    }
+
+    a.facebook-icon {
+
+        margin-right: 0;
+
+        margin-top: 10px;
+
+    }
+
+    .login-form input {
+
+        width: 80%;
+
+    }
+
+}
+
+
+
+
+.full-demo{
+    position: relative;
+    width: 50%;
+    text-align: right;
+    margin: 15px auto;
+}
+.full-demo input {
+    z-index: 9;
+    position: relative;
+    background-color: transparent !important;
+}
+.full-demo input:focus{
+width:100%;
+background-color:#fbfbfb !important;
+}
+.full-demo label{
+width: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 9;
+    top: 0;
+    padding: 15px;
+    background-color: #fbfbfb;
+        color: #c4c4ca;
+    font-family: GE-medium;
+}
+.full-demo input:focus + label {
+    position: relative;
+    display: none;
+}
+.full-demo label span {
+    color: #f00;
+}
+input:focus{ 
+    output:none;
+}
+.form-input-1 .full-demo:last-child {
+    margin-right: 10px;
+}
+.form-input-1 .full-demo:first-child {
+    margin-left: 10px;
+}
+.full-demo.textarea {
+    width: 100%;
+}
+
+
+
+.full-demo.user label {
+    position: relative;
+}
+.full-demo.user label:before {
+    position: absolute;
+    content: "";
+    background-image: url(/images/user.png);
+    left: 15px;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.full-demo.lock label {
+    position: relative;
+}
+.full-demo.lock label:before {
+    position: absolute;
+    content: "";
+    background-image: url(/images/lock.png);
+    left: 15px;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.full-demo.user input , .full-demo.lock input  {
+    display: none;
+}

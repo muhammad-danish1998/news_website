@@ -1,0 +1,17 @@
+query Articles($slug: String!) {
+  articles(where: {Slugline: $slug}) {
+    Body
+    Headline
+    Slugline
+    Byline
+    tags (limit:8) {
+      Title
+    }
+    CreatedByUserID {
+      username
+    }
+    RelatedArticles (limit:3) {
+      Headline
+    }
+  }
+}

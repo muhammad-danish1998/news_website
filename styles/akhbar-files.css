@@ -1,0 +1,250 @@
+ .container {
+     max-width: 1175px !important;
+     margin: 0 auto;
+}
+
+
+.sikl-top-btn-main {
+    padding: 15px;
+}
+.sikl-top-btn-inner {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e0e0e0;
+}
+.sikl-top-btn-inner p {
+    margin-bottom: 0;
+    background-color: #cb051a;
+    color: #fff;
+    padding: 7px 30px 6px;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'GE-Medium';
+}
+span.home-icon-main {
+    background-color: #e4e4e4;
+    padding: 9px 10px;
+}
+span.home-icon-main a {
+    color: #000;
+}
+
+
+
+
+.files-banner-section {
+    background: url(/images/akhbar-files.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0 220px;
+    background-repeat: no-repeat;
+}
+.files-banner-section h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Jalal';
+}
+.top-info-section {
+    margin-top: -200px;
+}
+.top-info-section p {
+    width: 82%;
+    margin: 0 auto;
+    text-align: justify;
+    background-color: rgba(255,255,255,0.87);
+    padding: 25px;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'GE-Medium';
+}
+
+
+.complex-main-sec {
+    margin-top: 10px;
+}
+.complex-main-sec .col-4 {
+    margin-bottom: 10px;
+}
+.economy-main-sec {
+    margin-bottom: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 4.65px 0.35px rgba(10, 0, 23, 0.16);
+}
+.complex-main .img-detail {
+    position: relative;
+}
+.img-detail img {
+    position: relative;
+    border-radius: 7px 7px 0 0;
+    width: 100%;
+}
+.content-detail {
+    text-align: right;
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 0 0 7px 7px;
+    height: 200px;
+}
+.content-detail h3 {
+    font-size: 12px;
+    line-height: 30px;
+    font-family: 'Jalal';
+}
+.content-detail p {
+    font-size: 14px;
+    color: #000;
+    margin-top: 14px;
+    font-family: 'GE-Medium';
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.dead-share {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row-reverse;
+    justify-content: flex-end;
+}
+.dead-share span {
+    color: #aeaeae;
+    font-family: 'GE-Medium';
+}
+.dead-share img {
+    object-fit: contain;
+    padding-left: 5px;
+}
+p.comment-main {
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-family: 'GE-Medium';
+    font-size: 14px;
+}
+p.comment-main span {
+    color: #cb051a;
+    margin-left: 5px;
+}
+
+
+.previous-main-sec {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.previous-btn {
+    border-bottom: 1px solid #e0e0e0;
+    text-align: right;
+    margin-bottom: 30px;
+    padding-bottom: 4px;
+}
+.previous-btn a {
+    background-color: #cb051a;
+    color: #fff;
+    padding: 7px 30px 6px;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'GE-Medium';
+}
+.date-main {
+    background-color: #f8f8f8;
+    padding: 12px;
+    text-align: center;
+    border-radius: 7px;
+}
+.date-main a {
+    color: #9e9e9e;
+    font-size: 18px;
+    font-family: 'GE-Medium';
+}
+
+a.share-main {
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .content-detail p:nth-child(3) {
+        height: 60px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px)
+{
+    .files-banner-section h2 {
+        font-size: 34px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px)
+{
+    .files-banner-section h2 {
+        font-size: 26px;
+    }
+    .content-detail {
+        height: 230px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px)
+{
+    .files-banner-section h2 {
+        font-size: 16px;
+    }
+    .top-info-section p {
+        width: 90%;
+        padding: 15px;
+    }
+    .files-banner-section {
+        padding: 100px 0 220px;
+    }
+    .complex-main-sec .col-4 {
+        flex: auto;
+        max-width: 100%;
+    }
+    .date-main a {
+        font-size: 14px;
+    }
+    .date-main {
+        padding: 6px;
+    }
+    .content-detail {
+        height: auto;
+    }
+}
+
+@media (max-width: 375px)
+{
+    .files-banner-section h2 {
+        font-size: 14px;
+        padding: 15px;
+    }
+    .previous-main-sec .col-3 {
+        padding: 0 10px;
+    }
+    .date-main {
+        padding: 10px;
+    }
+    .date-main a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px)
+{
+    .files-banner-section h2 {
+        font-size: 11px;
+        padding: 0;
+    }
+    .previous-main-sec .col-3 {
+        padding: 0 7px;
+    }
+    .date-main {
+        padding: 5px;
+    }
+}

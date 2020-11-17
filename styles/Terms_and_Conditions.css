@@ -1,0 +1,89 @@
+.container {
+
+    max-width: 1175px !important;
+
+    margin: 0 auto;
+
+}
+
+
+
+
+
+.policy-main-heading {
+
+    text-align: right;
+
+    margin-top: 20px;
+
+}
+
+.policy-main-heading.text-forming {
+    margin-top: 50px;
+}
+
+.policy-heading-inner h3 {
+
+    border-bottom: 1px solid #d6d6d6;
+
+    font-size: 35px;
+
+    margin-bottom: 15px;
+
+    padding-bottom: 15px;
+
+    position: relative;
+
+    font-family: 'GE-Light';
+
+}
+
+.policy-heading-inner h3::after {
+
+    content: "";
+
+    position: absolute;
+
+    background: #cb051a;
+
+    width: 5%;
+
+    height: 5px;
+
+    bottom: -1px;
+
+    right: 0;
+
+}
+
+.policy-text-main {
+
+    padding-top:10px;
+
+}
+
+.policy-text-main p {
+
+    text-align: justify;
+
+    font-family: 'GE-Medium';
+
+    font-size: 16px;
+
+    line-height: 28px;
+
+}
+
+
+
+.policy-heading-inner.title-main h3 {
+
+    border: none;
+
+}
+
+.policy-main-heading.last-title-sec {
+
+    margin-bottom: 30px;
+
+}

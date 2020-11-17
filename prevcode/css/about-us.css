@@ -1,0 +1,37 @@
+.about-info {
+    text-align: right;
+    margin: 40px 0;
+}
+.about-info h4 {
+    color: #000;
+    border-bottom: 1px solid #d6d6d6;
+    position: relative;
+    padding: 10px 0;
+    margin-bottom: 30px;
+        font-family: GE-light;
+}
+.about-info h4:before {
+    position: absolute;
+    content: "";
+    background: #cb051a;
+    width: 4%;
+    height: 5px;
+    bottom: 0;
+}
+.about-info span , .about-info h5{
+	color: #cb051a;
+}
+.about-info p {
+    font-family: GE-medium;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+p.bottom-info {
+    margin-bottom: 0;
+    font-family: GE-medium;
+}
+.about-info h5 {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: GE-medium;
+}

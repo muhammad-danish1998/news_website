@@ -1,0 +1,184 @@
+.advertise-info {
+    text-align: right;
+}
+.advertise-info form input , .advertise-info form textarea {
+    width: 100%;
+}
+.form-input-1 {
+    display: flex;
+}
+.advertise-info h3 {
+    position: relative;
+    padding: 10px 0;
+    font-family: GE-Medium;
+    font-weight: 700;
+    font-size: 20px;
+        margin-top: 30px;
+    margin-bottom: 15px;
+}
+.advertise-info h3:before {
+    position: absolute;
+    content: "";
+    background: #cb051a;
+    width: 3%;
+    height: 4px;
+    bottom: 0;
+    border-radius: 5px;
+}
+h3.top-heading {
+	border-bottom: 1px solid #dcdcdc;
+}
+p.icon-info {
+    font-family: gotham-book;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.advertise-info h3 span {
+    color: #cb051a;
+    margin-right: 5px;
+}
+.advertise-info form input , .advertise-info form textarea {
+    background: #fbfbfb;
+    border: none;
+    padding: 15px;
+    border-bottom: 1px solid #cb051a;
+}
+input#fname , input#email , input#code{
+    margin-left: 10px;
+}
+input#cname , input#email-confirm , input#mobile-number{
+	margin-right: 10px;
+}
+.advertise-info input, .advertise-info textarea {
+    margin-bottom: 20px;
+}
+.advertise-info input::placeholder , .advertise-info textarea::placeholder{
+    color: #c4c4c4;
+    font-family: GE-light;
+}
+.submit-btn input {
+    border: none !important;
+    background: #000 !important;
+    color: #fff;
+    width: 10% !important;
+    padding: 10px !important;
+    font-family: GE-medium;
+}
+.submit-btn{
+	    display: flex;
+    justify-content: center;
+}
+p.top-info {
+    font-size: 15px;
+    text-align: justify;
+    font-family: GE-medium;
+}
+p.icon-info i {
+    margin-left: 20px;
+}
+
+@media(max-width: 767px){
+	.form-input-1 {
+    display: block;
+}
+input#fname , input#email , input#code{
+    margin-left: 0px;
+}
+input#cname , input#email-confirm , input#mobile-number{
+	margin-right: 0px;
+}
+.advertise-info h3:before{
+	width: 10%;
+}
+.submit-btn input{
+	width: 100% !important;
+}
+}
+
+
+
+
+.full-demo{
+position:relative;
+width:50%;
+margin: 0;
+}
+.full-demo input , .full-demo textarea{
+    z-index: 9;
+    position: relative;
+    background-color: transparent !important;
+}
+.full-demo input:focus , .full-demo textarea:focus{
+width:100%;
+background-color:#fbfbfb !important;
+}
+.full-demo label{
+width: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 9;
+    top: 0;
+    padding: 15px;
+    background-color: #fbfbfb;
+        color: #c4c4ca;
+    font-family: GE-medium;
+}
+.full-demo input:focus + label , .full-demo textarea:focus + label {
+    position: relative;
+    display: none;
+}
+.full-demo label span {
+    color: #f00;
+}
+input:focus{ 
+    output:none;
+}
+.form-input-1 .full-demo:last-child {
+    margin-right: 10px;
+}
+.form-input-1 .full-demo:first-child {
+    margin-left: 10px;
+}
+.full-demo.textarea {
+    width: 100%;
+}
+
+.full-demo textarea + label {
+    height: 122px;
+    display: block;
+}
+
+input:focus, textarea{
+    outline: none;
+}
+@media(max-width:767px){
+    body .full-demo{
+        width: 100%;
+    }
+
+    .form-input-1 .full-demo:last-child {
+        margin-right: 0;
+    }
+}
+
+.full-demo label span {
+    color: #f00;
+    position: relative;
+    top: -5px;
+    font-size: 20px;
+    left: -1px;
+}
+
+.full-demo label{
+    height: 55px;
+}
+
+.full-demo input.typing + label, .full-demo input.typing + label span,
+.full-demo textarea.typing + label, .full-demo textarea.typing + label span{
+    color: transparent !important;
+}
+
+p.icon-info a{
+    color: #000;
+}
